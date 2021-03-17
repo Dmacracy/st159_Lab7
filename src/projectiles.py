@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 def plot_projectile_motion(init_pos=(0,0), init_vel=(10,10), g=-9.8, time=5, timestep=0.001):
+    """This function will plot the motion of a projectile in 2D space under the influence of gravity."""
     x0 = init_pos[0]
     y0 = init_pos[1]
     vel_x0 = init_vel[0]
